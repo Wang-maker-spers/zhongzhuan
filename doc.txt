@@ -2,3 +2,32 @@ mkdir ~/bin
 curl https://raw.githubusercontent.com/esrlabs/git-repo/stable/repo > ~/bin/repo
 curl https://raw.githubusercontent.com/esrlabs/git-repo/stable/repo.cmd > ~/bin/repo.cmd
 chmod a+rx ~/bin/repo
+
+
+
+# 先随便新建源码目录
+mkdir ~/AOSP
+cd ~/AOSP
+# 初始化
+repo init -u https://aosp.tuna.tsinghua.edu.cn/platform/manifest -b android-10.0.0_r25 --repo-url=https://github.com/esrlabs/git-repo.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
