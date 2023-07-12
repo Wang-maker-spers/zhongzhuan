@@ -1,0 +1,4 @@
+mkdir ~/bin
+curl https://raw.githubusercontent.com/esrlabs/git-repo/stable/repo > ~/bin/repo
+curl https://raw.githubusercontent.com/esrlabs/git-repo/stable/repo.cmd > ~/bin/repo.cmd
+chmod a+rx ~/bin/repo
